@@ -1,0 +1,8 @@
+Feature: Login # features/login.feature:1
+  Check login scenario in sauce demo application
+  @Sanity @Regression @Web
+  Scenario Outline: Verify the user is able to login into sauce demo application -- @1.1   # features/login.feature:14
+    When I enter standard_user and secret_sauce                                            # features/steps/loginsteps.py:8
+    And I click on login button                                                            # features/steps/loginsteps.py:15
+    Then login should be successful                                                        # features/steps/loginsteps.py:20
+

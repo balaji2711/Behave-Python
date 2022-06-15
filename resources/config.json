@@ -1,0 +1,31 @@
+{
+    "testConfig": {
+        "execute": "Ui",
+        "browser": "chrome",
+        "headlessMode": "No",
+        "reportName": "Regression Report",
+        "suite": "CMS Regression Suite",
+        "emailIDs": "balaji.gopi@playtech.com;",
+        "dbconnectionString": "",
+        "product": "CMS",
+        "author": "Balaji Gopi"
+    },
+
+    "appConfig": {
+        "webBaseURL": "https://www.saucedemo.com/",
+        "baseURL": "https://jsonplaceholder.typicode.com/",
+        "socketType": "wss://",
+        "serviceFabricURL": "demo.piesocket.com/v3/channel_1?api_key=VCXCEuvhGcBDP7XhiJJUDvR1e1D3eiVjgZ9VRiaV&notify_self",
+        "portNumber": "19081"
+    },
+
+    "dbConnectionString": {
+        "dataSource": "10.31.11.153",
+        "userName": "jmeter",
+        "password" :  "Intel666!"
+    },
+
+    "testData": {
+        "subnet": "10.31.12.124/24"
+    }
+}
