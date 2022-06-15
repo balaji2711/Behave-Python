@@ -5,10 +5,10 @@
         "headlessMode": "No",
         "reportName": "Regression Report",
         "suite": "CMS Regression Suite",
-        "emailIDs": "balaji.gopi@playtech.com;",
+        "emailIDs": "",
         "dbconnectionString": "",
         "product": "CMS",
-        "author": "Balaji Gopi"
+        "author": ""
     },
 
     "appConfig": {
@@ -20,12 +20,12 @@
     },
 
     "dbConnectionString": {
-        "dataSource": "10.31.11.153",
-        "userName": "jmeter",
-        "password" :  "Intel666!"
+        "dataSource": "",
+        "userName": "",
+        "password" :  ""
     },
 
     "testData": {
-        "subnet": "10.31.12.124/24"
+        "subnet": ""
     }
 }
