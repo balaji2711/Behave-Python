@@ -26,13 +26,3 @@ jobs:
     - name: Test with Behave
       run: |
         behavex --parallel-processes 3
-    - name: dotnet-tests-report
-      uses: zyborg/dotnet-tests-report@v1.4.4      
-      with:
-        report_name: Automation Test Run Report
-        report_title: Regression
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: HTML Preview
-      uses: pavi2410/html-preview-action@v2
-      with:
-        html_file: .\output\report.html
